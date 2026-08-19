@@ -1,8 +1,12 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
 
   <title>Daily US Watchlist</title>
 
@@ -11,36 +15,92 @@
     content="A short premarket list of US large-caps and momentum names I'm tracking."
   >
 
+  <meta name="robots" content="index, follow">
+
   <link
     rel="canonical"
     href="https://ddwatch.github.io/TradingStrategy/"
   >
 
-  <!-- Open Graph: WhatsApp / Telegram -->
+  <!-- Open Graph: WhatsApp / Telegram / Facebook / LinkedIn -->
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Daily US Watchlist">
-  <meta property="og:title" content="Daily US Watchlist">
+
+  <meta
+    property="og:site_name"
+    content="Daily US Watchlist"
+  >
+
+  <meta
+    property="og:title"
+    content="Daily US Watchlist"
+  >
+
   <meta
     property="og:description"
     content="A short premarket list of US large-caps and momentum names I'm tracking."
   >
-  <meta property="og:url" content="https://ddwatch.github.io/TradingStrategy/">
-  <meta property="og:image" content="https://ddwatch.github.io/TradingStrategy/profile.jpg">
-  <meta property="og:image:secure_url" content="https://ddwatch.github.io/TradingStrategy/profile.jpg">
-  <meta property="og:image:type" content="image/jpeg">
-  <meta property="og:image:width" content="400">
-  <meta property="og:image:height" content="400">
-  <meta property="og:image:alt" content="Daily US Watchlist">
 
-  <!-- X Preview: small card like your screenshot -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Daily US Watchlist">
+  <meta
+    property="og:url"
+    content="https://ddwatch.github.io/TradingStrategy/"
+  >
+
+  <!-- 社交平台预览图片 -->
+  <meta
+    property="og:image"
+    content="https://ddwatch.github.io/TradingStrategy/profile.jpg?v=20260820-2"
+  >
+
+  <meta
+    property="og:image:secure_url"
+    content="https://ddwatch.github.io/TradingStrategy/profile.jpg?v=20260820-2"
+  >
+
+  <meta
+    property="og:image:type"
+    content="image/jpeg"
+  >
+
+  <meta
+    property="og:image:width"
+    content="365"
+  >
+
+  <meta
+    property="og:image:height"
+    content="365"
+  >
+
+  <meta
+    property="og:image:alt"
+    content="Daily US Watchlist"
+  >
+
+  <!-- X 小型正方形预览卡片 -->
+  <meta
+    name="twitter:card"
+    content="summary"
+  >
+
+  <meta
+    name="twitter:title"
+    content="Daily US Watchlist"
+  >
+
   <meta
     name="twitter:description"
     content="A short premarket list of US large-caps and momentum names I'm tracking."
   >
-  <meta name="twitter:image" content="https://ddwatch.github.io/TradingStrategy/profile.jpg">
-  <meta name="twitter:image:alt" content="Daily US Watchlist">
+
+  <meta
+    name="twitter:image"
+    content="https://ddwatch.github.io/TradingStrategy/profile.jpg?v=20260820-2"
+  >
+
+  <meta
+    name="twitter:image:alt"
+    content="Daily US Watchlist"
+  >
 
   <style>
     * {
@@ -51,8 +111,8 @@
       margin: 0;
       padding: 0;
       background: #ffffff;
-      font-family: Arial, Helvetica, sans-serif;
       color: #111111;
+      font-family: Arial, Helvetica, sans-serif;
     }
 
     .container {
@@ -64,49 +124,51 @@
     }
 
     h1 {
-      font-size: 30px;
-      line-height: 1.2;
       margin: 0 0 22px;
+      font-size: 30px;
       font-weight: 800;
+      line-height: 1.2;
     }
 
     .profile-image {
-      width: 65%;
-      aspect-ratio: 1 / 1;
-      object-fit: cover;
       display: block;
+      width: 65%;
+      height: auto;
+      aspect-ratio: 1 / 1;
       margin: 0 auto 24px;
+      object-fit: cover;
     }
 
     .description {
-      font-size: 17px;
-      line-height: 1.55;
       margin: 0 0 24px;
       color: #222222;
+      font-size: 17px;
+      line-height: 1.55;
     }
 
     .whatsapp-button {
       display: block;
       width: 100%;
-      text-align: center;
-      background: #25D366;
-      color: #ffffff;
-      text-decoration: none;
+      margin-bottom: 18px;
       padding: 16px 20px;
       border-radius: 8px;
+      background: #25d366;
+      color: #ffffff;
       font-size: 18px;
       font-weight: 700;
-      margin-bottom: 18px;
+      text-align: center;
+      text-decoration: none;
     }
 
-    .whatsapp-button:hover {
+    .whatsapp-button:hover,
+    .whatsapp-button:focus-visible {
       background: #20bd5a;
     }
 
     .footer-text {
+      color: #555555;
       font-size: 14px;
       line-height: 1.5;
-      color: #555555;
     }
 
     @media (max-width: 600px) {
@@ -127,11 +189,13 @@
 </head>
 
 <body>
-  <div class="container">
+  <main class="container">
     <h1>Daily US Watchlist</h1>
 
     <img
       src="profile.jpg"
+      width="365"
+      height="365"
       alt="Daily US Watchlist"
       class="profile-image"
     >
@@ -153,6 +217,6 @@
     <div class="footer-text">
       Free · no spam · just the daily list.
     </div>
-  </div>
+  </main>
 </body>
 </html>
